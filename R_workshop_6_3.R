@@ -8,3 +8,6 @@ install.packages("numbers")
 library(numbers)
 x <- 72
 primeFactors(x)
+renv::status()
+y<-1000
+primeFactors(y)
