@@ -1,0 +1,21 @@
+iris
+str(iris)
+df<-iris[]
+
+
+
+print(mean(x))
+}
+
+apply(df,margin=1, FUN=mean)
+
+cats<-c("simon","garfield", "mr. wiskers")
+iris
+tapply(iris$Sepal.Length,iris$Species, mean)
+
+replicate(n=5, expr={
+  x<-10
+  y<-rexp(x, rate=0.5)
+  z<-sin(1-y)
+  z
+})
